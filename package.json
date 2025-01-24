@@ -1,0 +1,41 @@
+{
+  "name": "askui-mocha-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register \"test/**/*.test.ts\"",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.7",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "chai": "^5.1.2",
+    "eslint": "^9.18.0",
+    "mocha": "^11.1.0",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "askui": "^0.21.2",
+    "dotenv": "^16.4.7"
+  },
+  "mocha": {
+  "extension": ["ts"],
+  "spec": [
+    "test/**/*.test.ts"
+  ],
+  "require": [
+    "ts-node/register"
+  ],
+  "timeout": 360000
+}
+}
