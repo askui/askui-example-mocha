@@ -11,7 +11,7 @@ askui-shell
 
 2. Checkout repo 
 ```scripts
-git clone git@github.com:askui/example-mocha-askui.git
+git clone git@github.com:askui/askui-example-mocha.git
 ```
 3. Open VS project 
 ```script
